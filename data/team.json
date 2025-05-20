@@ -1,0 +1,128 @@
+[
+  {
+    "name": "L RMN",
+    "categories": ["Developers"],
+    "badge": "Founder",
+    "id": 1,
+    "description": "Lead Developer",
+    "imageUrl": "/team/developer/lrmn.jpg",
+    "websiteUrl": "https://hi-lrmn.is-a.dev"
+  },
+  {
+    "name": "Linkimorii",
+    "categories": ["Artworks"],
+    "badge": null,
+    "id": 4,
+    "description": "Freelancer Illustrator",
+    "imageUrl": "/team/artwork/linkimori.png",
+    "websiteUrl": "https://linkimorii.id/"
+  },
+  {
+    "name": "Weiss Owl",
+    "categories": ["Contributors"],
+    "badge": null,
+    "id": 5,
+    "description": "Contributors",
+    "imageUrl": "/team/contributors/WeissOwl.webp",
+    "websiteUrl": "https://alfari.id/"
+  },
+  {
+    "name": "NOCT",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 6,
+    "description": "Beta Tester",
+    "imageUrl": "/team/beta-testers/noct.webp",
+    "websiteUrl": null
+  },
+  {
+    "name": "MRFRIPS",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 7,
+    "description": "Beta Tester",
+    "imageUrl": "/team/beta-testers/mrfrips.gif",
+    "websiteUrl": null
+  },
+  {
+    "name": "RICHARDS",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 8,
+    "description": "Beta Tester",
+    "imageUrl": "/team/beta-testers/richards.webp",
+    "websiteUrl": "https://www.srichardsphotography.co.uk/"
+  },
+  {
+    "name": "DASCANARD",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 9,
+    "description": "Beta Tester",
+    "imageUrl": "/team/beta-testers/dascanard.gif",
+    "websiteUrl": "https://richy.sh/"
+  },
+  {
+    "name": "SENSEI",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 10,
+    "description": "Beta Tester",
+    "imageUrl": "/team/beta-testers/sensei.webp",
+    "websiteUrl": null
+  },
+  {
+    "name": "ARiYAN",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 11,
+    "description": "Beta Tester",
+    "imageUrl": "/team/beta-testers/ariyan.webp",
+    "websiteUrl": null
+  },
+  {
+    "name": "GEORGE",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 12,
+    "description": "Beta Tester",
+    "imageUrl": "/team/beta-testers/george.gif",
+    "websiteUrl": "https://legendaryrttextures.com/"
+  },
+  {
+    "name": "MAXIMILIAN",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 13,
+    "description": "Beta Tester",
+    "imageUrl": "/team/beta-testers/maximilian.webp",
+    "websiteUrl": "https://m-s.moe/"
+  },
+  {
+    "name": "HEXTOR",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 14,
+    "description": "Beta Tester",
+    "imageUrl": "/team/beta-testers/hextor.webp",
+    "websiteUrl": "https://www.twitch.tv/hectort19"
+  },
+  {
+    "name": "ckbts",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 15,
+    "description": "Beta Tester",
+    "imageUrl": "/team/beta-testers/snowy.gif",
+    "websiteUrl": "https://discord.com/users/1204529565964173372"
+  },
+  {
+    "name": "KORIVASH",
+    "categories": ["Beta Testers"],
+    "badge": null,
+    "id": 16,
+    "description": "Beta Tester",
+    "imageUrl": "/team/developer/korivash.webp",
+    "websiteUrl": "https://www.korivash.com/"
+  }
+]

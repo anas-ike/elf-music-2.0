@@ -1,0 +1,163 @@
+---
+title: Mewwme Lyrics API
+description: Mewwme Lyrics API – Fetch Lyrics Easily from Musixmatch, Genius & YouTube Music!
+date: February 19, 2025
+seoDate: '2025-02-19'
+thumbnail:
+  large: /posts/mewwme-api-lyrics.svg
+author:
+  name: L RMN
+  avatar: /staff/lrmn.webp
+tags: [Mewwme, Lyrics, API]
+pinned: false
+toc: ["Mewwme Lyrics", 'Lyrics API', 'Musixmatch', 'YouTube Lyrics']
+---
+
+## Mewwme Lyrics API
+
+Mewwme Lyrics API makes it easy to fetch song lyrics from multiple sources, including Musixmatch, Genius, and YouTube Music. Whether you're developing a music app, building a website, or just looking up lyrics, this API has you covered.
+Our service provides a vast collection of song lyrics from various sources. It's perfect for developers, music enthusiasts, and anyone looking to integrate lyrics into their projects.
+
+### Why Choose Mewwme Lyrics API?
+✅ **Free to use** – Most endpoints work without an API key.  
+✅ **Multiple sources** – Fetch lyrics from Musixmatch, Genius, and YouTube Music.  
+✅ **Easy integration** – Simple and clear API structure.
+
+**Note:** To access Genius lyrics, you'll need to sign up for a Genius API key from their official website.
+
+Start using our API today and explore the documentation to see all available endpoints!
+
+---
+
+## Supported Sources
+
+Mewwme Lyrics API fetches lyrics from these sources:
+
+- **Musixmatch** – Best for lyrics from Spotify, Deezer, and Apple Music.
+- **Genius** – Great for lyrics and annotations from various music sources.
+- **YouTube Music** – Ideal for lyrics from YouTube videos.
+
+---
+
+## Endpoints
+
+
+## 1. Musixmatch
+
+**Endpoint:** `/musixmatch/lyrics`  
+**Method:** `GET`
+
+**Parameters:**
+- `title` (string) – The song title to search for.
+
+**Example Request:**
+```plaintext
+GET https://api-mewwme-lyrics.vercel.app/musixmatch/lyrics?title={song_title}
+```
+
+**Example Response:**
+```json
+{
+  "artist_name": "Gummy",
+  "track_name": "You Are My Everything",
+  "track_id": 1742571940,
+  "search_engine": "Musixmatch",
+  "artwork_url": "https://s.mxmcdn.net/images-storage/albums4/6/5/3/3/2/4/34423356_350_350.jpg",
+  "lyrics": "처음부터 그대였죠 ..."
+}
+```
+
+#### 🎯 More Accurate Lyrics Search
+
+**Endpoint:** `/musixmatch/lyrics-search`  
+**Method:** `GET`
+
+**Parameters:**
+- `title` (string) – The song title.
+- `artist` (string) – The artist's name.
+
+**Example Request:**
+```plaintext
+GET https://api-mewwme-lyrics.vercel.app/musixmatch/lyrics-search?title={song_title}&artist={artist_name}
+```
+
+**Example Response:**
+```json
+{
+  "artist_name": "Gummy",
+  "track_name": "You Are My Everything",
+  "track_id": 1742571940,
+  "search_engine": "Musixmatch",
+  "artwork_url": "https://s.mxmcdn.net/images-storage/albums4/6/5/3/3/2/4/34423356_350_350.jpg",
+  "lyrics": "처음부터 그대였죠 ..."
+}
+```
+
+---
+
+
+## 2. Genius
+
+**Endpoint:** `/genius/lyrics`  
+**Method:** `GET`
+
+**Parameters:**
+- `title` (string) – The song title.
+- `api_key` (string) – Your Genius API Key.
+
+**Example Request:**
+```plaintext
+GET https://api-mewwme-lyrics.vercel.app/genius/lyrics?title={song_title}&api_key={genius_key}
+```
+
+**Example Response:**
+```json
+{
+  "artist_name": "Eminem",
+  "track_name": "Lose Yourself",
+  "search_engine": "Genius",
+  "artwork_url": "https://t2.genius.com/unsafe/340x340/https://images.genius.com/ce61c1b2664c5952984e30f9b59f1346.1000x1000x1.png",
+  "lyrics": "[Intro] Look, if you had one shot or one opportunity"
+}
+```
+
+---
+
+
+## 3. YouTube Music
+
+**Endpoint:** `/youtube/lyrics`  
+**Method:** `GET`
+
+**Parameters:**
+- `title` (string) – The song title.
+
+**Example Request:**
+```plaintext
+GET https://api-mewwme-lyrics.vercel.app/youtube/lyrics?title={song_title}
+```
+
+**Example Response:**
+```json
+{
+  "artist_name": "Rick Astley",
+  "track_name": "Never Gonna Give You Up",
+  "search_engine": "YouTube",
+  "artwork_url": "https://lh3.googleusercontent.com/eC9DfRcYSk4FE-fvDCJSu_4xsKdVMKxwmFTYFZwP8OqB7R4TKxAjKoR-Kp1lXeRi2WddPFYulSte4eW-=w120-h120-l90-rj",
+  "lyrics": "Never gonna give you up, Never gonna let you down ..."
+}
+```
+
+---
+
+## Response Codes
+- `200`  Success
+- `400`  Bad Request
+- `401`  Unauthorized
+- `404`  Not Found
+- `500`  Internal Server Error
+
+---
+
+Start integrating **Mewwme Lyrics API** today and bring lyrics to your apps with ease! 🎵
+
